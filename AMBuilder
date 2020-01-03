@@ -10,6 +10,8 @@ sourceFiles = [
   'vglobals.cpp',
   'l4d2sdk/l4d2calls.cpp',
   'util.cpp',
+  'CDetour/detours.cpp',
+  'asm/asm.c',
   'detours/detour.cpp',
   'detours/spawn_tank.cpp',
   'detours/spawn_witch.cpp',
