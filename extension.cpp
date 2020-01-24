@@ -315,7 +315,7 @@ void Left4Downtown::SDK_OnAllLoaded()
 	g_PatchManager.Register(new AutoPatch<Detours::ClearTeamScores>());
 	g_PatchManager.Register(new AutoPatch<Detours::SetCampaignScores>());
 
-	g_PatchManager.Register(new AutoPatch<Detours::FirstSurvivorLeftSafeArea>());
+	//g_PatchManager.Register(new AutoPatch<Detours::FirstSurvivorLeftSafeArea>());
 	g_PatchManager.Register(new AutoPatch<Detours::GetScriptValueInt>());
 	g_PatchManager.Register(new AutoPatch<Detours::GetScriptValueFloat>());
 	g_PatchManager.Register(new AutoPatch<Detours::GetScriptValueString>());
@@ -339,7 +339,7 @@ void Left4Downtown::SDK_OnAllLoaded()
 	g_PatchManager.Register(new AutoPatch<Detours::FindScavengeItem>());
 	g_PatchManager.Register(new AutoPatch<Detours::SendInRescueVehicle>());
 	g_PatchManager.Register(new AutoPatch<Detours::ChangeFinaleStage>());
-	g_PatchManager.Register(new AutoPatch<Detours::EndVersusModeRound>());
+	//g_PatchManager.Register(new AutoPatch<Detours::EndVersusModeRound>());
 	g_PatchManager.Register(new AutoPatch<Detours::SelectWeightedSequence>());//for SelectTankAttack
 	g_PatchManager.Register(new AutoPatch<Detours::Revived>());
     g_PatchManager.Register(new AutoPatch<Detours::WaterMove>());
